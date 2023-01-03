@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CT.Host.Backend", "source\host\CT.Host.Backend\CT.Host.Backend.csproj", "{14AE3C6C-AFF2-4A20-9D18-29FCE46BB518}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pledgewise.Host.Backend", "source\host\Pledgewise.Host.Backend\Pledgewise.Host.Backend.csproj", "{14AE3C6C-AFF2-4A20-9D18-29FCE46BB518}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CT.Common", "source\common\CT.Common\CT.Common.csproj", "{6E99490A-9A39-448F-8A2C-58E34508A222}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pledgewise.Common", "source\common\Pledgewise.Common\Pledgewise.Common.csproj", "{6E99490A-9A39-448F-8A2C-58E34508A222}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{8B92EDB9-17A1-4470-99B2-86600850B959}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CT.Common.Web", "source\common\CT.Common.Web\CT.Common.Web.csproj", "{64019E81-CD2A-4EDC-B267-38F78C6D82B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pledgewise.Common.Web", "source\common\Pledgewise.Common.Web\Pledgewise.Common.Web.csproj", "{64019E81-CD2A-4EDC-B267-38F78C6D82B9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

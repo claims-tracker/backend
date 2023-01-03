@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Pledgewise.Common\Pledgewise.Common.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="RequestResponse\Base\" />
+  </ItemGroup>
+
+</Project>
