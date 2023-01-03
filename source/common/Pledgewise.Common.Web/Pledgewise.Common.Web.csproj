@@ -8,11 +8,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Pledgewise.Common\Pledgewise.Common.csproj" />
+    <Compile Remove="RequestResponse\Base\**" />
+    <EmbeddedResource Remove="RequestResponse\Base\**" />
+    <None Remove="RequestResponse\Base\**" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="RequestResponse\Base\" />
+    <ProjectReference Include="..\Pledgewise.Common\Pledgewise.Common.csproj" />
   </ItemGroup>
 
 </Project>
