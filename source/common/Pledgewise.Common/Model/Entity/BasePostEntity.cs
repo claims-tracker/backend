@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Pledgewise.Common.Model.Entity
 {
-    public class EntityDTO : BaseGetEntity
+    public class BasePostEntity : BaseEntity
     {
     }
 }

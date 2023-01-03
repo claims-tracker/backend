@@ -1,5 +1,4 @@
-﻿using Pledgewise.Common.Model.Entity.Enum;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,15 +6,9 @@ using System.Threading.Tasks;
 
 namespace Pledgewise.Common.Model.Entity
 {
-    public class BaseEntityDTO
+    public class BaseGetEntity : BaseEntity
     {
         public long Id { get; set; }
-
-        public string? Name { get; set; }
-
-        public string? Description { get; set; }
-
-        public EntityTypeEnum Type { get; set; }
 
         public string CreatedByUserId { get; set; }
 

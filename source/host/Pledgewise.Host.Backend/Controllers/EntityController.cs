@@ -31,17 +31,35 @@ namespace Pledgewise.Host.Backend.Controllers
             {
                 Entities = new PaginatedDataWebDTO<EntityWebDTO>
                 {
-                    Count= request.Count,
+                    Count = request.Count,
                     Page = request.Page,
                     TotalPages = 1,
                     TotalCount = 5,
                     Items = new List<EntityWebDTO>
                     {
                         new EntityWebDTO {
-                            
                         }
                     }
                 }
+            });
+        }
+
+        [Produces(typeof(PostEntitiesWebResponseDTO))]
+        [HttpPost]
+        public ActionResult<PostEntitiesWebResponseDTO> Post([FromBody] PostEntitiesWebRequestDTO request)
+        {
+            return new JsonResult(new PostEntitiesWebResponseDTO
+            {
+                Ids = new List<long> { 1 }
+            });
+        }
+
+        [Produces(typeof(PutEntitiesWebResponseDTO))]
+        [HttpPut]
+        public ActionResult<PutEntitiesWebResponseDTO> Put([FromBody] PutEntitiesWebRequestDTO request)
+        {
+            return new JsonResult(new PutEntitiesWebResponseDTO
+            {
             });
         }
     }

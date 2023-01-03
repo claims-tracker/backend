@@ -10,14 +10,14 @@ namespace Pledgewise.Host.Backend.Dal
         {
         }
 
-        public DbSet<BaseEntityDTO> Entities { get; set; }
+        public DbSet<EntityDTO> Entities { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             // ModelsTraining
             var entitiesBuilder = modelBuilder.
-                Entity<BaseEntityDTO>().
-                ToTable("ModelTraining");
+                Entity<EntityDTO>().
+                ToTable("Entity");
 
             entitiesBuilder.
                 Property(b => b.CreatedOn).

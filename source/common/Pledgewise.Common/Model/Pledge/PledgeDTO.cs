@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Pledgewise.Common.Model.Pledge
 {
-    public class PledgeDTO : BasePledgeDTO<PledgeUpdateDTO>
+    public class PledgeDTO : BaseGetPledgeDTO<PledgeUpdateDTO>
     {
     }
 }

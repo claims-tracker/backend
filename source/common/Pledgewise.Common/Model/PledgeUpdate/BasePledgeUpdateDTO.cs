@@ -10,14 +10,10 @@ namespace Pledgewise.Common.Model.PledgeUpdate
 {
     public class BasePledgeUpdateDTO
     {
-        public long Id { get; set; }
-
         public long PledgeId { get; set; }
 
         public string CreatedByUserId { get; set; }
 
         public PledgeUpdateTypeEnum Type { get; set; }
-
-        public DateTime CreatedOn { get; set; }
     }
 }

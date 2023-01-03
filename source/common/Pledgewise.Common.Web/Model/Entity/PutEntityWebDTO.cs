@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Pledgewise.Common.Web.Model.Entity
 {
-    public class EntityWebDTO : BaseGetEntity
+    public class PutEntityWebDTO : BasePutEntity
     {
     }
 }
